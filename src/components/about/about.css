@@ -5,12 +5,16 @@
 }
 
 .about__me{
-    width: 100%;
+    width: 200px;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+}
+
+.image2{
+    width: 200px;
 }
 
 .about__me-image{
@@ -73,7 +77,8 @@
     }
     
     .about__me{
-        width: 50%;
+        /* width: 50%; */
+        width:200px;
         margin: 2rem auto 4rem;
     }
 
@@ -86,7 +91,8 @@
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
     .about__me{
-        width: 65%;
+        /* width: 65%; */
+        width:200px;
         margin: 0 auto 3rem;
     }
 

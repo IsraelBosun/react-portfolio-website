@@ -1,12 +1,17 @@
-.container{
+.header{
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
+/* .section{
+    height: max-content;
+    margin-top: 400px;
+} */
+
 .header__container{
     text-align: center;
-    /* height: 100%; */
+    height: 100%;
     position: relative;
 }
 
@@ -47,7 +52,28 @@
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+    padding: 4rem 0rem 10rem 0rem; 
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+    
+}
+
+.imagine{
+    /* width: 39rem;
+    margin-right: 9px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 39rem;
+    top: 20px;
+    left: -114px;
+    right: ;
+    position: absolute;
+    
+    
 }
 
 /* =============== SCROLL DOWN ================ */
@@ -62,7 +88,7 @@
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
-    .container{
+    .header{
         height: 68vh;
     }
 }
@@ -70,7 +96,7 @@
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
-    .container{
+    .header{
         height: 100vh;
     }
 
